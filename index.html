@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tiny Heart</title>
+    <script src="js/commonFunctions.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/collision.js"></script>
+    <script src="js/data.js"></script>
+    <style>
+        #all_canvas{width: 800px;height: 600px;position: relative;margin: 10px auto}
+        #canvas1,#canvas2{position: absolute;top: 0;left: 0;z-index: 1}
+        #canvas2{z-index: 0}
+    </style>
+</head>
+<body>
+<div class="bg">
+    <div id="all_canvas">
+        <canvas id="canvas1" width="800" height="600">您的浏览器不支持canvas……</canvas>
+        <canvas id="canvas2" width="800" height="600">您的浏览器不支持canvas……</canvas>
+    </div>
+</div>
+</body>
+</html>
